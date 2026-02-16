@@ -19,9 +19,10 @@ This document serves as a comprehensive documentation on the deep learning model
 
 1. [About cerv.AI](#about-cervai)
 2. [Theory on Models Trained](#theory-on-models-trained)
-3. [Training and Validation Results](#training-and-validation-results)
-4. [Training the Models](#training-the-models)
-5. [Recommendations for Improvement](#recommendations-for-improvement)
+3. [The Directory](#the-directory)
+4. [Training and Validation Results](#training-and-validation-results)
+5. [Training the Models](#training-the-models)
+6. [Recommendations for Improvement](#recommendations-for-improvement)
 
 ---
 
@@ -68,6 +69,25 @@ Cervical cancer is the [fourth](https://www.who.int/news-room/fact-sheets/detail
 > 🔍 Key Innovation: Balances **transformer-based accuracy** with **real-time performance constraints**.
 
 [Link to RT-DETR Paper]([INSERT_LINK_HERE](https://docs.ultralytics.com/models/rtdetr/))
+
+---
+
+## The Directory
+
+The directory is navigated as follows:
+- `configs` - These contains the configuration needed for the pipeline. Instead of manually changing the scripts for the optimizer, learning rates, and other parameters to be used, all of the configuration will be stored in this file for easy customization.
+
+- `dataset` - Contains the open-source dataset from IARC; annotated and with bounding boxes. Note that while the labels are from IARC itself, the annotations are done independently from *Roboflow*. Additional validation is required.
+
+- `notebooks` - Contains sample notebooks for different models to be trained. While these are instructional notebooks, these notebooks can also be used for training and testing execution if done within the *Jupyter* environment instead of separate scripts in the terminal.
+
+- `outputs` - Directory to show the models' performance in training and testing, as csv files. These can be visualized in various software, although a readily-available code is avialable in `scripts`.
+
+- `scripts` - Contains the scripts used to run visualization, explanation, training, and testing, for various models stored in this directory. These scripts will call the reusable codes found in `src`.
+
+- `src` - Contains the resubale production-ready code for models, dataset and data loaders, training logic, inference logic, and other utility scripts.
+
+- `weights` - Saved weights from previous training runs of the first CervAI project. Please refer to [this repo](https://github.com/ToniYenC11/cervAI) for more infromation.
 
 ---
 
