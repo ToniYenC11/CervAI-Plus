@@ -4,12 +4,14 @@ This document serves as a comprehensive documentation on the deep learning model
 
 
 ## Team
-**Ms. Roxanne S. Aviñante** - Project Supervisor 
+**Ms. Roxanne S. Aviñante** - Project Leader
 
 **Mr. Jeffrey A. Aborot** - Technical Supervisor
 
 
 **Toni Yenisei Czar S. Castañares** - Artificial Intelligence Engineer
+
+**Rannie Rubillos** - Preoject Administrative Assistant IV (Project Manager)
 
 **Rafael D. Ronquillo** - Artificial Intelligence Engineer
 
