@@ -24,7 +24,6 @@ This document serves as a comprehensive documentation on the deep learning model
 3. [The Directory](#the-directory)
 4. [Training and Validation Results](#training-and-validation-results)
 5. [Training the Models](#training-the-models)
-6. [Recommendations for Improvement](#recommendations-for-improvement)
 
 ---
 
@@ -170,12 +169,6 @@ python train.py --coco_path ../coco --depth 50
 For all scripts, its named by default `datasets`. You can change the name appropriately, but in the case that some scripts and notebook do not work, simply change the `DATASET_PATH` in the notebook/scripts to the name of your dataset directory.
 
 Check inside each model directory for explanations and instructions on how to use the trainign scripts, loading weights, performing inference, and visualizing said inferences.
-
----
-
-## Recommendations for Improvement
-
-- 
 
 ---
 Written by: Toni "Sniper" Yenisei Czar S. Castañares
